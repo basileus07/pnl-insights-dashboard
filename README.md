@@ -22,6 +22,7 @@ It supports bulk data upload, querying between dates, and performance metrics li
 
 ## 🏗️ Project Structure
 
+```
 src/main/java/com/example/traderinsights
 │
 ├── controller # REST Controllers (expose APIs)
@@ -30,6 +31,7 @@ src/main/java/com/example/traderinsights
 ├── repository # Spring Data MongoDB repositories
 ├── service # Business logic interfaces & implementations
 └── TraderInsightsApplication.java
+```
 
 
 
@@ -51,7 +53,6 @@ src/main/java/com/example/traderinsights
 | POST   | /trader/add                | Add a single PnL record                             |
 | POST   | /trader/bulk-upload        | Bulk upload PnL records (DTO)                       |
 | GET    | /trader/insights           | Get insights between two dates (avg, max, min)     |
-| GET    | /trader/all                | Fetch all PnL records                               |
 | GET    | /trader/top-traders        | **Bonus**: Fetch top 3 traders by average PnL %    |
 
 ---
