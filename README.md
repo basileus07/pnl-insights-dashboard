@@ -23,7 +23,7 @@ It supports bulk data upload, querying between dates, and performance metrics li
 ## 🏗️ Project Structure
 
 ```
-src/main/java/com/example/traderinsights
+src/main/java/com/machinecoding/Optionx
 │
 ├── controller # REST Controllers (expose APIs)
 ├── dto # Data Transfer Objects (for requests/responses)
