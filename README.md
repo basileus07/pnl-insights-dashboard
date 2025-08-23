@@ -62,7 +62,7 @@ src/main/java/com/machinecoding/Optionx
 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/trader-insights.git
-cd trader-insights
+cd pnl-insights-dashboard
 ```
 
 2. Run the app
